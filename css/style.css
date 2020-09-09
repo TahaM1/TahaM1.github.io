@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* 
+font-family: 'Roboto Mono', monospace;
+
+font-family: 'Roboto Slab', serif; 
+*/
+
+:root {
+  /* Fonts Family*/
+  --ff-primary: "Roboto Condensed", sans-serif;
+  --ff-secondary: "Roboto", sans-serif;
+
+  /* Font weights */
+  --fw-reg: 400;
+  --fw-bold: 900;
+
+  /* Font sizes */
+  --fs-h1: 4rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.5rem;
+  --fs-h4: 1.25rem;
+  --fs-h5: 1.1rem;
+
+  /* Background colors */
+  --clr-background: #2c343c;
+  --clr-b-primary: #65707b;
+  --clr-b-secondary: #5f7075;
+
+  /* text colors */
+  --clr-t-primary: #aab2bb;
+  --clr-t-secondary: #65707b;
+  --clr-t-tertiary: #ffffff;
+}
+
+@media (min-width: 1080px) {
+  :root {
+    /* Font sizes */
+    --fs-h1: 6rem;
+    --fs-h2: 3rem;
+    --fs-h3: 2rem;
+    --fs-h4: 1.5rem;
+    --fs-h5: 1.25rem;
+  }
+}
+
+/* General Styles */
+
+body {
+  background-color: var(--clr-background);
+  color: var(--clr-t-primary);
+  font-family: var(--ff-secondary);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-reg);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+}
+
+h4 {
+  font-size: var(--fs-h4);
+}
+
+h5 {
+  font-size: var(--fs-h5);
+}
