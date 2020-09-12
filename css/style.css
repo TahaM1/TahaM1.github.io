@@ -238,6 +238,10 @@ section {
   align-items: center;
 }
 
+.project {
+  margin-top: 4rem;
+}
+
 .project__content {
   padding: 1rem;
   display: flex;
@@ -253,13 +257,26 @@ video {
   max-width: 100%;
 }
 
+.project__title {
+  margin: 0;
+}
+.project__skills {
+  margin: 0;
+}
+.project__description-title {
+  margin: 0;
+}
+.project__description {
+  margin: 0;
+}
 .project__links {
   display: flex;
 }
 
 .project__link {
   margin-top: 1rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
   padding: 0.25rem;
 }
 
@@ -276,21 +293,6 @@ video {
   }
   .project__video {
     max-width: 800px;
-  }
-  .project__text {
-    max-width: 800px;
-  }
-  .project__title {
-    margin: 0;
-  }
-  .project__skills {
-    margin: 0;
-  }
-  .project__description-title {
-    margin: 0;
-  }
-  .project__description {
-    margin: 0;
   }
 }
 
@@ -312,18 +314,6 @@ video {
     max-width: 800px;
     padding-left: 2rem;
   }
-  .project__title {
-    margin: 0;
-  }
-  .project__skills {
-    margin: 0;
-  }
-  .project__description-title {
-    margin: 0;
-  }
-  .project__description {
-    margin: 0;
-  }
 }
 
 @media (min-width: 1600px) {
@@ -338,28 +328,17 @@ video {
   }
   .project__video {
     max-width: 550px;
-    flex: 1;
-    border: solid;
   }
-
   .project__text {
     padding-left: 2rem;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border: solid;
-  }
-  .project__title {
-    margin: 0;
-  }
-  .project__skills {
-    margin: 0;
-  }
-  .project__description-title {
-    margin: 0;
   }
   .project__description {
     margin: 0;
-  }
-  .project__links {
+    line-height: 1.2rem;
   }
 }
 
