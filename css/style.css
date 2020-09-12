@@ -255,11 +255,11 @@ video {
 
 .project__links {
   display: flex;
-  justify-content: space-around;
 }
 
 .project__link {
-  margin: 0.75rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
   padding: 0.25rem;
 }
 
@@ -333,16 +333,19 @@ video {
   }
   .project__content {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 2rem;
+    align-items: stretch;
+    padding: 3rem;
   }
   .project__video {
     max-width: 550px;
+    flex: 1;
+    border: solid;
   }
+
   .project__text {
-    max-width: 800px;
     padding-left: 2rem;
+    flex: 1;
+    border: solid;
   }
   .project__title {
     margin: 0;
@@ -355,6 +358,8 @@ video {
   }
   .project__description {
     margin: 0;
+  }
+  .project__links {
   }
 }
 
