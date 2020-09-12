@@ -55,6 +55,9 @@ body {
   color: var(--clr-t-primary);
   font-family: var(--ff-secondary);
   line-height: 1.6;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 /* Typography */
@@ -360,6 +363,36 @@ video {
     margin-left: 0rem;
     margin-right: 3rem;
     margin-bottom: 1rem;
+  }
+}
+
+/* FOOTER SECTION */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem 1.5rem 2rem;
+}
+
+@media (min-width: 800px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__credit {
+    margin-left: 10%;
+  }
+  .footer__about {
+    margin-right: 10%;
   }
 }
 
