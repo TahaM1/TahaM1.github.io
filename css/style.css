@@ -142,7 +142,7 @@ h5 {
   text-align: center;
 }
 
-.project__video {
+video {
   max-width: 100%;
 }
 
@@ -178,4 +178,87 @@ h5 {
 
 footer {
   background: var(--clr-b-secondary);
+}
+
+/* 
+----------------------------------------------------------
+                        LAYOUT
+----------------------------------------------------------
+*/
+
+section {
+  padding: 2rem;
+}
+
+/* INTRO SECTION */
+
+.my-intro {
+  padding-top: 12rem;
+  padding-left: 6rem;
+}
+
+.section__title--intro {
+  margin: 0;
+}
+
+.section__subtitle--intro {
+  margin: 0;
+}
+
+/* SKILLS SECTIONS */
+
+.section__title--skills {
+  margin: 4rem;
+}
+
+.skill {
+  margin: 3rem auto 5rem;
+  padding: 1rem 1rem 4rem;
+  max-width: 350px;
+}
+
+@media (min-width: 800px) {
+  .skills {
+    display: flex;
+  }
+
+  .skill {
+    padding: 1rem 1rem 3rem;
+    margin: 3rem auto 5rem;
+    padding: 1rem 1rem 4rem;
+    max-width: 350px;
+  }
+
+  .skill + .skill {
+    margin-left: 3rem;
+  }
+}
+
+/* PROJECTS */
+
+.project__video {
+  padding: 0.5rem;
+}
+
+.project__content {
+  padding: 0.5rem;
+}
+
+.project__links {
+  display: flex;
+}
+
+@media (min-width: 800px) {
+  .project {
+    display: flex;
+  }
+
+  .project__video {
+    align-items: center;
+  }
+}
+
+/* TEMP */
+.nav {
+  display: none;
 }
