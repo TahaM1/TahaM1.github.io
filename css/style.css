@@ -142,10 +142,6 @@ h5 {
   text-align: center;
 }
 
-video {
-  max-width: 100%;
-}
-
 .project__title {
   font-family: "Roboto Slab", serif;
   color: var(--clr-t-tertiary);
@@ -236,25 +232,53 @@ section {
 
 /* PROJECTS */
 
-.project__video {
-  padding: 0.5rem;
+.project__content {
+  padding: 1rem;
 }
 
-.project__content {
-  padding: 0.5rem;
+.project__video {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+video {
+  max-width: 100%;
 }
 
 .project__links {
   display: flex;
+  justify-content: space-around;
 }
 
-@media (min-width: 800px) {
-  .project {
-    display: flex;
-  }
+.project__link {
+  margin: 0.75rem;
+  padding: 0.25rem;
+}
 
-  .project__video {
+@media (min-width: 1400px) {
+  .project {
+    margin: 10rem;
+  }
+  .project__content {
+    display: flex;
     align-items: center;
+    padding: 2rem;
+  }
+  .project__text {
+    max-width: 800px;
+    padding-left: 2rem;
+  }
+  .project__title {
+    margin: 0;
+  }
+  .project__skills {
+    margin: 0;
+  }
+  .project__description-title {
+    margin: 0;
+  }
+  .project__description {
+    margin: 0;
   }
 }
 
