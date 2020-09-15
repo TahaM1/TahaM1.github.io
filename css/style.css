@@ -312,8 +312,9 @@ nav {
 /* INTRO SECTION */
 
 .my-intro {
-  padding-top: 12rem;
-  padding-left: 6rem;
+  margin-top: 12%;
+  margin-left: 11%;
+  margin-bottom: 20%;
 }
 
 .section__title--intro {
