@@ -134,6 +134,15 @@ button {
   color: var(--clr-t-secondary);
 }
 
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-top: 50px solid var(--clr-b-secondary);
+  margin: 0 auto;
+}
+
 /* SKILLS SECTION */
 
 .section__title--skills {
