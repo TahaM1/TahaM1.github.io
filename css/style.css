@@ -20,9 +20,9 @@ font-family: 'Roboto Slab', serif;
   --fw-light: 300;
 
   /* Font sizes */
-  --fs-h1: 4rem;
+  --fs-h1: 3rem;
   --fs-h2: 2.25rem;
-  --fs-h3: 1.5rem;
+  --fs-h3: 1.25rem;
   --fs-h4: 1.25rem;
   --fs-h5: 1.1rem;
 
@@ -312,8 +312,8 @@ nav {
 /* INTRO SECTION */
 
 .my-intro {
-  padding-top: 12%;
-  padding-left: 11%;
+  padding-top: 25%;
+  padding-left: 12%;
   padding-bottom: 20%;
 }
 
@@ -323,6 +323,29 @@ nav {
 
 .section__subtitle--intro {
   margin: 0;
+}
+
+@media (min-width: 800px) {
+  .my-intro {
+    padding-top: 20%;
+    padding-left: 11%;
+    padding-bottom: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-intro {
+    padding-top: 12%;
+    padding-left: 11%;
+    padding-bottom: 20%;
+  }
+  .section__title--intro {
+    margin: 0;
+  }
+
+  .section__subtitle--intro {
+    margin: 0;
+  }
 }
 
 /* SKILLS SECTIONS */
