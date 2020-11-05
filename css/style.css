@@ -37,6 +37,17 @@ font-family: 'Roboto Slab', serif;
   --clr-t-tertiary: #ffffff;
 }
 
+@media (min-width: 800px) {
+  :root {
+    /* Font sizes */
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
+    --fs-h3: 1.5rem;
+    --fs-h4: 1.5rem;
+    --fs-h5: 1.25rem;
+  }
+}
+
 @media (min-width: 1080px) {
   :root {
     /* Font sizes */
@@ -133,6 +144,7 @@ button {
   background: var(--clr-b-primary);
   color: var(--clr-t-tertiary);
   text-align: center;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
 }
 
 .skill__title {
@@ -142,6 +154,7 @@ button {
 
 .skill__text {
   font-weight: var(--fw-light);
+  font-size: var(--fs-h5);
   font-family: var(--ff-secondary);
 }
 
@@ -150,6 +163,7 @@ button {
 .project {
   background: var(--clr-b-primary);
   margin-bottom: 40px;
+  box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.25);
 }
 .section__title--projects {
   text-align: center;
@@ -158,11 +172,13 @@ button {
 .project__title {
   font-family: "Roboto Slab", serif;
   color: var(--clr-t-tertiary);
+  font-size: var(--fs-h2);
 }
 
 .project__skills {
   color: var(--clr-t-primary);
   font-family: var(--ff-primary);
+  font-weight: var(--fw-reg);
 }
 
 .project__description-title {
@@ -390,7 +406,7 @@ nav {
 }
 
 .project__content {
-  padding: 1rem;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
 }
