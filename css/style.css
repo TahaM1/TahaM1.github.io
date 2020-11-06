@@ -340,6 +340,7 @@ nav {
   padding-top: 25%;
   padding-left: 12%;
   padding-bottom: 20%;
+  margin: 1rem 1rem 15rem 0;
 }
 
 .section__title--intro {
@@ -355,14 +356,16 @@ nav {
     padding-top: 20%;
     padding-left: 11%;
     padding-bottom: 20%;
+    margin: 1rem 1rem 5rem 0;
   }
 }
 
 @media (min-width: 1200px) {
   .my-intro {
-    padding-top: 12%;
+    padding-top: 10%;
     padding-left: 11%;
     padding-bottom: 20%;
+    margin: 1rem 1rem 0rem 0;
   }
   .section__title--intro {
     margin: 0;
@@ -411,7 +414,7 @@ nav {
 }
 
 .project {
-  margin-top: 10rem;
+  margin-top: 5rem;
 }
 
 .project__content {
@@ -541,7 +544,10 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-
+  margin-top: 10%;
+  /* font-size: var(--fs-h5); */
+  font-weight: var(--fw-light);
+  color: #ffffff;
   padding: 2rem 1.5rem 2rem;
 }
 
