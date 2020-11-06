@@ -383,10 +383,17 @@ nav {
   margin: 4rem;
 }
 
+i {
+  margin: 1rem 0rem;
+}
+
 .skill {
   margin: 3rem auto 5rem;
   padding: 1rem 1rem 4rem;
   max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (min-width: 800px) {
