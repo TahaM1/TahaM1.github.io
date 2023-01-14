@@ -3,6 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 /* 
 font-family: 'Roboto Mono', monospace;
 
@@ -174,6 +175,7 @@ button {
   margin-bottom: 40px;
   box-shadow: 10px 6px 4px rgba(0, 0, 0, 0.25);
 }
+
 .section__title--projects {
   text-align: center;
   margin: 4rem auto;
@@ -194,6 +196,7 @@ button {
 .project__description-title {
   color: #000000;
 }
+
 .project__description {
   color: #000000;
 }
@@ -302,15 +305,21 @@ nav {
   padding: 0.25rem;
 }
 
+.fa-brands {
+  padding: 0.25rem;
+}
+
 @media (min-width: 1200px) {
   nav {
     transform: none;
     position: relative;
     padding: 0rem;
   }
+
   .toggle-nav {
     display: none;
   }
+
   .nav__list {
     display: flex;
     flex-direction: row;
@@ -327,9 +336,11 @@ nav {
     display: flex;
     flex-direction: row;
   }
+
   .nav__link {
     font-size: var(--fs-h4);
   }
+
   .nav__item {
     margin: 0rem;
   }
@@ -368,6 +379,7 @@ nav {
     padding-bottom: 20%;
     margin: 1rem 1rem 0rem 0;
   }
+
   .section__title--intro {
     margin: 0;
   }
@@ -409,7 +421,7 @@ i {
     max-width: 350px;
   }
 
-  .skill + .skill {
+  .skill+.skill {
     margin-left: 3rem;
   }
 }
@@ -444,15 +456,19 @@ video {
 .project__title {
   margin: 0;
 }
+
 .project__skills {
   margin: 0;
 }
+
 .project__description-title {
   margin: 0;
 }
+
 .project__description {
   margin: 0;
 }
+
 .project__links {
   display: flex;
   justify-content: center;
@@ -468,18 +484,22 @@ video {
     margin: 1rem 4rem 10rem;
     max-width: 1920px;
   }
+
   .project__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
   }
+
   .project__video {
     max-width: 800px;
   }
+
   .project__links {
     justify-content: center;
   }
+
   .project__link {
     margin: 1rem 2.5rem 0.5rem;
   }
@@ -490,23 +510,28 @@ video {
     margin: 5rem 1rem 7rem;
     max-width: 1920px;
   }
+
   .project__content {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 2rem;
   }
+
   .project__video {
     max-width: 500px;
   }
+
   .project__text {
     max-width: 800px;
     padding-left: 2rem;
   }
+
   .project__links {
     display: flex;
     justify-content: left;
   }
+
   .project__link {
     margin-left: 0rem;
     margin-right: 3rem;
@@ -518,28 +543,34 @@ video {
     margin: 5rem 1rem 10rem;
     max-width: 1920px;
   }
+
   .project__content {
     display: flex;
     align-items: stretch;
     padding: 3rem;
   }
+
   .project__video {
     max-width: 550px;
   }
+
   .project__text {
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
+
   .project__description {
     margin: 0;
     line-height: 1.2rem;
   }
+
   .project__links {
     display: flex;
     justify-content: left;
   }
+
   .project__link {
     margin-left: 0rem;
     margin-right: 3rem;
@@ -572,9 +603,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
   }
+
   .footer__credit {
     margin-left: 10%;
   }
+
   .footer__about {
     margin-right: 10%;
   }

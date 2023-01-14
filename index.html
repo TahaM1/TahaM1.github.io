@@ -1,152 +1,165 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/9b3c5b2a4a.js" crossorigin="anonymous"></script>
-        <title>
-            Taha - Portfolio
-        </title>
-        <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        
-        <header>
-           
-            <button class="toggle-nav" aria-label="toggle navigation">
-                <i class="fas fa-bars fa-2x"></i>
-            </button>
-            
-            
-   
-            <nav class="nav">
-                <ul class="nav__list">
-                    <div class="nav__social-links">
-                        <li class="nav__item"><a href="https://github.com/TahaM1" class="nav__link"><i class="fab fa-github"></i>GitHub</a></li>
-                        <li class="nav__item"><a href="https://www.linkedin.com/in/taha-m1/" class="nav__link"><i class="fab fa-linkedin"></i>LinkedIn</a></li>    
-                    </div>
-                    <div class="nav__site-links">
-                        <li class="nav__item" ><a href="#home" class="nav__link">Home</a></li>
-                        <!-- <li class="nav__item" ><a href="#about" class="nav__link">About</a></li> -->
-                        <li class="nav__item" ><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item" ><a href="#projects" class="nav__link">Projects</a></li>    
-                    </div>
 
-                </ul>
-                
-            </nav>
-        </header>
-        
-        <main>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9b3c5b2a4a.js" crossorigin="anonymous"></script>
+    <title>
+        Taha - Portfolio
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
 
-            <!-- INTRODUCTION -->
-            <section class="my-intro" id="home">
-                <h1 class="section__title--intro">
-                    Hello, Taha here!
-                </h1>
-                <p class="section__subtitle--intro">I'm a software engineering student @ UoG</p>
-            
-                
+<body>
 
-            </section>
-            
-            <div class="triangle-down"></div>
-            
-            <!-- ABOUT -->
-            <section class="about" id="about">
-                <!-- Fill in later -->
-            </section>
+    <header>
+
+        <button class="toggle-nav" aria-label="toggle navigation">
+            <i class="fas fa-bars fa-2x"></i>
+        </button>
 
 
-            <!-- SKILLS -->
-            <section class="my-skills" id="skills">
-                <h2 class="section__title--skills">
-                    SKILLS
-                </h2>
-                <div class="skills">
-                    <div class="skill">
-                        <h3 class="skill__title">Python</h3>
-                        <p class="skill__text">
-                            I'm fairly new to Python but I've found it very useful because of its simplicity.
-                            I used it to program a backend in Flask for one of my projects. 
-                            It's libraries made it really appealing to do a web scraping project in it.
-                        </p>
-                        <i class="fab fa-python fa-3x"></i>
-                    </div>
 
-                    <div class="skill">
-                        <h3 class="skill__title">Java</h3>
-                        <p class="skill__text">
-                            Java was the first language I learned. In my High school CS courses I learned 
-                            about variables, functions, data types and Object Oriented programming. I would
-                            say I'm the most experienced with this language over others.
-                        </p>
-                        <i class="fab fa-java fa-3x"></i>
-                    </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <div class="nav__social-links">
+                    <li class="nav__item"><a href="https://github.com/TahaM1" class="nav__link"><i
+                                class="fab fa-github"></i>GitHub</a></li>
+                    <li class="nav__item"><a href="https://www.linkedin.com/in/taha-m1/" class="nav__link"><i
+                                class="fab fa-linkedin"></i>LinkedIn</a></li>
+                </div>
+                <div class="nav__site-links">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <!-- <li class="nav__item" ><a href="#about" class="nav__link">About</a></li> -->
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
 
-                    <div class="skill">
-                        <h3 class="skill__title">HTML</h3>
-                        <p class="skill__text">
-                            I first used HTML back in grade 10 in order to make a webpage for my computer engieering 
-                            assignment. I recently came back to it so I could learn how to scrape html pages
-                            off the web for my project. After that, I used it to create this site along with CSS!
-                        </p>
-                        <i class="fab fa-html5 fa-3x"></i>
+                </div>
 
-                    </div> 
-                </div> 
-            </section>
-        
-            <div class="triangle-down"></div>
+            </ul>
 
-            <!-- PROJECTS -->
-            <section class="my-projects" id="projects">
-                <h2 class="section__title--projects">
-                    PROJECTS
-                </h2>
-                <div class="projects">
-                    
-                    <div class="project">
-                        <div class="project__content">
-                            <div class="project__video">
-                                <video  controls src="/demo/test.mp4">Demo of this project</video>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INTRODUCTION -->
+        <section class="my-intro" id="home">
+            <h1 class="section__title--intro">
+                Hello, Taha here!
+            </h1>
+            <p class="section__subtitle--intro">I'm a computer science student @ UoG</p>
+
+
+
+        </section>
+
+        <div class="triangle-down"></div>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <!-- Fill in later -->
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title--skills">
+                SKILLS
+            </h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3 class="skill__title">Python</h3>
+                    <p class="skill__text">
+                        I'm fairly new to Python but I've found it very useful because of its simplicity.
+                        I used it to program a backend in Flask for one of my projects.
+                        It's libraries made it really appealing to do a web scraping project in it.
+                    </p>
+                    <i class="fab fa-python fa-3x"></i>
+                </div>
+
+                <div class="skill">
+                    <h3 class="skill__title">Java</h3>
+                    <p class="skill__text">
+                        Java was the first language I learned. In my High school CS courses I learned
+                        about variables, functions, data types and Object Oriented programming. I would
+                        say I'm the most experienced with this language over others.
+                    </p>
+                    <i class="fab fa-java fa-3x"></i>
+                </div>
+
+                <div class="skill">
+                    <h3 class="skill__title">HTML</h3>
+                    <p class="skill__text">
+                        I first used HTML back in grade 10 in order to make a webpage for my computer engieering
+                        assignment. I recently came back to it so I could learn how to scrape html pages
+                        off the web for my project. After that, I used it to create this site along with CSS!
+                    </p>
+                    <i class="fab fa-html5 fa-3x"></i>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="triangle-down"></div>
+
+        <!-- PROJECTS -->
+        <section class="my-projects" id="projects">
+            <h2 class="section__title--projects">
+                PROJECTS
+            </h2>
+            <div class="projects">
+
+                <div class="project">
+                    <div class="project__content">
+                        <div class="project__video">
+                            <video controls src="/demo/test.mp4">Demo of this project</video>
+                        </div>
+
+
+                        <div class="project__text">
+                            <h3 class="project__title">
+                                ScholarshipScraper
+                            </h3>
+                            <h5 class="project__skills">
+                                Languages/Technologies: Python, JavaScript, React, Flask
+                            </h5>
+                            <h4 class="project__description-title">
+                                Description:
+                            </h4>
+                            <div class="project__description">
+                                <li>Created a React-Flask app to find local scholarships by scraping business
+                                    directories in user's area</li>
+                                <li> Developed web API to parse small business websites from said directories for
+                                    scholarship </li>
+                                <li> Integrated Asyncio into the API to send asynchronous GET requests to reduce
+                                    scraping time of 10+ websites from 20 to 10 seconds</li>
+                                <li> Returned scholarship websites to React Front-end and displayed to the user</li>
                             </div>
-                            
-                            
-                            <div class="project__text">
-                                <h3 class="project__title">
-                                    ScholarshipScraper
-                                </h3>
-                                <h5 class="project__skills">
-                                    Languages/Technologies: Python, JavaScript, React, Flask   
-                                </h5>
-                                <h4 class="project__description-title">
-                                    Description:
-                                </h4>
-                                <div class="project__description">
-                                    <li>Created a React-Flask app to find local scholarships by scraping business directories in user's area</li>
-                                    <li> Developed web API to parse small business websites from said directories for scholarship </li>
-                                    <li> Integrated Asyncio into the API to send asynchronous GET requests to reduce scraping time of 10+ websites from 20 to 10 seconds</li>
-                                    <li> Returned scholarship websites to React Front-end and displayed to the user</li>
+                            <div class="project__links">
+                                <div class="project__link">
+                                    <a href="https://scholarship-scraper.herokuapp.com/"
+                                        class="project__link--text">Deployed App</a>
+                                    <i class="fas fa-link fa-lg"></i>
                                 </div>
-                                <div class="project__links">
-                                    <div class="project__link">
-                                        <a href="https://scholarship-scraper.herokuapp.com/" class="project__link--text">Deployed App</a>
-                                        <i class="fas fa-link fa-lg"></i>
-                                    </div>
-                                    
-                                    <div class="project__link">
-                                        <a href="https://github.com/TahaM1/ScholarshipScraper" class="project__link--text">Source Code</a>
-                                        <i class="fas fa-link fa-lg"></i>    
-                                    </div>
+
+                                <div class="project__link">
+                                    <a href="https://github.com/TahaM1/ScholarshipScraper"
+                                        class="project__link--text">Source Code</a>
+                                    <i class="fas fa-link fa-lg"></i>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <!-- <div class="project">
+                </div>
+
+                <!-- <div class="project">
                         <div class="project__content">
                             <div class="project__video">
                                 <video controls src="/demo/project1.mp4">Demo of this project</video>
@@ -225,28 +238,199 @@
                             </div>
                         </div>
                     </div> -->
+            </div>
+        </section>
+
+        <div class="triangle-down"></div>
+
+
+        <!-- PROJECTS -->
+        <section class="my-projects" id="experience">
+            <h2 class="section__title--projects">
+                Work Experience (WT1/2)<br /> Cisco Systems, Inc.
+            </h2>
+            <div class="projects">
+
+                <div class="project">
+                    <div class="project__content">
+
+
+
+                        <div class="project__text">
+                            <h3 class="project__title">
+                                What is Cisco?
+                            </h3>
+
+                            <div class="project__description">
+                                <p>
+                                    Cisco is a technology leader that designs and manufactures networking,
+                                    communications and security solutions for businesses of all sizes. Founded in 1984,
+                                    Cisco has grown to become one of the world’s leading providers of IT solutions and
+                                    services. Cisco offers a comprehensive portfolio of products and services that
+                                    enable businesses to securely connect people, information, processes, and things.
+                                    Cisco’s solutions are used in over 10 million businesses worldwide and are designed
+                                    to help organizations achieve their digital transformation goals. Cisco is committed
+                                    to helping its customers succeed in the ever-changing digital world.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-            </section>
-            
-            <!-- <div class="triangle-down"></div> -->
+                <div class="project">
+                    <div class="project__content">
 
-        </main>
-            
-            
-        <footer>
-            <div class="footer__credit">
-                Icons by <a href="https://fontawesome.com/">Font Awesome</a>
-            </div>
-            <div class="footer__about">
-                Created by me with HTML, CSS, and JavaScript
-            </div>
-           
-        </footer>
-       
-        <script src="js/index.js"></script>
 
-    </body>
-    
-    
-    
+
+                        <div class="project__text">
+                            <h3 class="project__title">
+                                Job Description
+                            </h3>
+                            <h5 class="project__skills">
+                                Languages/Technologies: Golang, Python, Kibana, Jenkins
+                            </h5>
+
+                            <div class="project__description">
+                                <p>
+                                    As a software engineer at Cisco, I was responsible for developing and maintaining
+                                    software applications to support our products and services. I was part of a
+                                    cross-functional development team that works on a service creation and delivery
+                                    platform. My role involved a mix of software development, test automation, manual
+                                    verification and debugging issues. For development I built features for our backend
+                                    microservices in Golang and created automated tests for them in Python. Along with
+                                    coding and testing, there was alot of collaboration involved to coordinate with
+                                    teams on features that had external team dependencies. </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="triangle-down"></div>
+
+
+        <!-- SKILLS -->
+        <section class="my-skills" id="skills">
+            <h2 class="section__title--skills">
+                Goals
+            </h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3 class="skill__title">Golang</h3>
+                    <p class="skill__text">
+                        One of my main goals for this work term was to learn Golang and its surrounding tools. This is
+                        because Golang was becoming a prominent part of my team's software stack at Cisco. And
+                        considering that the language's popularity has been growing in the backend development space, I
+                        thought this would be a goal I could benefit from in the future. The first challenge I
+                        encountered was wrapping my head around interfaces that weren't related to OOP. Another
+                        challenge was dealing with errors without exception handling. Because of this, I had to learn to
+                        check for errors returned by every function. After many months, I had grasped a better
+                        understanding of these fundamental concepts of Go.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3 class="skill__title">REST APIs</h3>
+                    <p class="skill__text">
+                        Properly learning about REST APIs was another goal of mine. I wanted to learn what they were and
+                        how to correctly implement them. The biggest reason behind this was that REST APIs are a
+                        standardised protocol for communication in a client/server architecture. I thought this would
+                        have major carry-over to other development co-ops I would do in the web/internet space. I
+                        learned how to implement APIs such as GET, POST, DELETE, etc. Another thing I learned was when
+                        to use query parameter vs path parameters when making a RESTful API call. Path params are to be
+                        used when making a call specific to a resource, while query params specify properties of a
+                        resource in the backend.
+                    </p>
+                </div>
+
+                <div class="skill">
+                    <h3 class="skill__title">Time Management</h3>
+                    <p class="skill__text">
+                        This goal was very important to me since I have always struggled with it in the past. Time
+                        management is crucial in large software projects, because many things are being worked on
+                        simultaneously. Vague requirements, internal dependencies, and deadlines are all problems that
+                        get worse if you have bad time management. To work on this goal, I would clear up any vague
+                        requirements right away when assigned a task. I would also scope out the problem ahead of time
+                        to determine any external dependencies for finishing the task. I would work on those first to
+                        make sure there aren't any unexpected delays in the completion of the task.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="my-projects" id="projects">
+
+            <div class="projects">
+                <div class="project">
+                    <div class="project__content">
+
+
+
+                        <div class="project__text">
+                            <h3 class="project__title">
+                                Conclusion
+                            </h3>
+
+
+                            <div class="project__description">
+                                By the end of my 8 month work-term at Cisco, I felt that I had achieved the goals I had
+                                set many months ago. I have gained alot of knowledge of how large software projects are
+                                built by distributed teams. I learned the importance of communication while working on a
+                                big project. I also learned the importance of making connections in the industry.
+                                Overall, I had a great time working at Cisco and would recommend others join the company
+                                as well if given the opportunity.</div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="project__content">
+
+
+
+                        <div class="project__text">
+                            <h3 class="project__title">
+                                Acknowledgements
+                            </h3>
+                            <div class="project__description">
+                                <p>
+                                    While at Cisco, I had the pleasure to interact and learn from many people including
+                                    developers, product owners, architects, and directors. But I would like to thank my
+                                    manager Oussama for guiding me and helping become a better developer.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="triangle-down"></div> -->
+
+    </main>
+
+
+    <footer>
+        <div class="footer__credit">
+            Icons by <a href="https://fontawesome.com/">Font Awesome</a>
+        </div>
+        <div class="footer__about">
+            Created by me with HTML, CSS, and JavaScript
+        </div>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+
+
 </html>
